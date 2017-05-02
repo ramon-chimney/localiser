@@ -1,0 +1,51 @@
+body{
+  color:rgb(20, 20, 20);
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+  font-size:16px;
+}
+h1{
+  font-family: 'Lobster', cursive;
+  color:white;
+}
+#my-header{
+  text-align: center;
+  padding-top:30px;
+  padding-bottom:10px;
+  color: white;
+  background: url("lignes.jpg");
+  background-size: cover;
+}
+.cadre{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-weight: 300;
+  border: 2px solid #FF9505;
+  border-radius:15px;
+}
+.feature{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-weight: 300;
+  border: 2px solid #FF9505;
+  border-radius:15px;
+  /*background-color:white;*/
+}
+.feature:hover {
+  border: 6px solid red;
+}
+#my-footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+#my-footer a {
+  color: lightgrey;
+  font-size: 25px;
+}
+#my-footer a:hover {
+  color: white;
+}
